@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+
+  /* Colors */
+  --neutral-900: #141d2f;
+  --neutral-800: #1e2a47;
+  --neutral-700: #2b3442;
+  --neutral-500: #4b6a9b;
+  --neutral-300: #697c9a;
+  --neutral-200: #90a4d4;
+  --neutral-100: #f6f8ff;
+  --neutral-0: #fff;
+  --blue-500: #0079ff;
+  --blue-300: #60abff;
+  --red-500: #f74646;
+
+  /*  Spacing */
+  --spacing-1000: 80px;
+  --spacing-800: 64px;
+  --spacing-600: 48px;
+  --spacing-500: 40px;
+  --spacing-400: 32px;
+  --spacing-300: 24px;
+  --spacing-250: 20px;
+  --spacing-200: 16px;
+  --spacing-150: 12px;
+  --spacing-125: 10px;
+  --spacing-100: 8px;
+  --spacing-075: 6px;
+  --spacing-050: 4px;
+  --spacing-025: 2px;
+  --spacing-0: 0;
+
+  /* Radius */
+  --radius-full: 999px;
+  --radius-24: 24px;
+  --radius-20: 20px;
+  --radius-16: 16px;
+  --radius-12: 12px;
+  --radius-10: 10px;
+  --radius-8: 8px;
+  --radius-6: 6px;
+  --radius-4: 4px;
+  --radius-0: 0;
+}
+
+.txt-preset-1 {
+  font-size: 26px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.txt-preset-2 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 140%;
+  letter-spacing: 0;
+}
+
+.txt-preset-3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0;
+}
+
+.txt-preset-3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0;
+}
+
+.txt-preset-3-mobile {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0;
+}
+
+.txt-preset-4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.txt-preset-5 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.txt-preset-6 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.txt-preset-7 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.txt-preset-8 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 2.5px;
+}
