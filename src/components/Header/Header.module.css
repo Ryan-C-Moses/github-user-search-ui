@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > div {
+  display: flex;
+}
+
+.header div > p {
+    color: var(--neutral-500);
+    font-feature-settings: 'liga' off, 'clig' off;
+    margin-right: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.page-title {
+  color: var(--neutral-900);
+  font-weight: bold;
+}
+
+.moon-icon {
+  width: 20px;
+  height: 20px;
+}

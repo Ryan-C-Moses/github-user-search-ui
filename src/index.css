@@ -4,3 +4,7 @@
     flex: 1;
     display: flex;
 }
+
+body {
+    background-color: var(--neutral-100);
+}

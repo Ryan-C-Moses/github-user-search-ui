@@ -1,7 +1,9 @@
 import "./UI.css";
 
-const UI = () => {
-    return <div id="wrapper"></div>
+const UI = ({children}) => {
+    return <div id="wrapper">
+        {children}
+    </div>
 }
 
 export default UI;
