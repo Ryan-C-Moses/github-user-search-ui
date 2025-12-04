@@ -5,7 +5,7 @@ import styles from "./ProfileCard.module.css";
 
 const ProfileCard = () => {
   return (
-    <div>
+    <div className={styles["profile-card-container"]}>
       <CardHeader />
       <CardBody />
       <CardFooter />
