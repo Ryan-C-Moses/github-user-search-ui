@@ -1,5 +1,7 @@
 import UI from "./layouts/UI_Wrapper/UI";
 import Header from "./components/Header/Header";
+import SearchBar from "./components/SearchBar/SearchBar";
+import ProfileCard from "./components/ProfileCard";
 import "./App.css";
 
 const App = () => {
@@ -7,18 +9,10 @@ const App = () => {
     <>
       <UI>
         <Header />
-
         <main>
           <section>
-            <div className="search-bar-container">
-              <img src="" alt="search icon" />
-              <input type="text" placeholder="Search GitHub username..."/>
-              <button>Search</button>
-            </div>
-
-            <div>
-              UserCard
-            </div>
+            <SearchBar />
+            <ProfileCard />
           </section>
         </main>
       </UI>
