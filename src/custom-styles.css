@@ -11,7 +11,7 @@
   --neutral-500: #4b6a9b;
   --neutral-300: #697c9a;
   --neutral-200: #90a4d4;
-  --neutral-100: #f6f8ff;
+  --neutral-100: color-mix(in srgb, #f6f8ff 72%, #87ceeb);
   --neutral-0: #fff;
   --blue-500: #0079ff;
   --blue-300: #60abff;
