@@ -1,13 +1,12 @@
 .profile-card-container {
   height: 100%;
-  max-height: 548px;
-  border: 1px solid red;
+  max-height: 590px;
   display: flex;
   padding: var(--spacing-400, 32px) var(--spacing-300, 24px);
   flex-direction: column;
   border-radius: 15px;
   background: var(--colors-neutral-0, #fff);
-  box-shadow: 0 16px 30px -10px rgba(70, 96, 187, 0.2);
+  box-shadow: 0 16px 30px -10px rgba(55, 83, 182, 0.2);
 }
 
 .card-header-container {
@@ -16,6 +15,8 @@
 }
 
 .profile-img {
+  width: 70px;
+  height: 70px;
   margin-right: 20px;
 }
 
@@ -24,16 +25,67 @@
 }
 
 .username {
-  color: var(--colors-neutral-700, #2b3442);
+  color: var(--neutral-700, #2b3442);
   font-feature-settings: "liga" off, "clig" off;
+  font-size: 25px;
 }
 
 .user-tag {
-  color: var(--colors-blue-500, #0079ff);
+  color: var(--blue-500, #0079ff);
   font-feature-settings: "liga" off, "clig" off;
 }
 
 .date-joined {
-  color: var(--colors-neutral-500, #4b6a9b);
+  color: var(--neutral-500, #4b6a9b);
+  font-feature-settings: "liga" off, "clig" off;
+}
+
+.card-body-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+.bio {
+  color: var(--neutral-500, #4b6a9b);
+  font-feature-settings: "liga" off, "clig" off;
+  margin-bottom: 24px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-200, 16px);
+  padding: var(--spacing-200, 16px) var(--spacing-250, 20px);
+  border-radius: 10px;
+  background: var(--neutral-100, #f6f8ff);
+}
+
+.profile-info h6 {
+  color: var(--neutral-500, #4b6a9b);
+  font-feature-settings: "liga" off, "clig" off;
+}
+
+.profile-info p {
+  color: var(--neutral-700, #2b3442);
+  font-feature-settings: "liga" off, "clig" off;
+}
+
+.card-footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-200, 16px);
+}
+
+.card-footer-container div {
+  display: flex;
+}
+
+.card-footer-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.card-footer-container p {
+  color: var(--neutral-500, #4b6a9b);
   font-feature-settings: "liga" off, "clig" off;
 }
