@@ -27,7 +27,6 @@
 .username {
   color: var(--neutral-700, #2b3442);
   font-feature-settings: "liga" off, "clig" off;
-  font-size: 25px;
 }
 
 .user-tag {
@@ -81,11 +80,18 @@
 }
 
 .card-footer-container img {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
 }
 
 .card-footer-container p {
   color: var(--neutral-500, #4b6a9b);
   font-feature-settings: "liga" off, "clig" off;
+}
+
+@media (min-width: 768px) {
+  .info {
+    display: flex;
+  }
 }

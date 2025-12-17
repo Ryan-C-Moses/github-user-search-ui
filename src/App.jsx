@@ -14,7 +14,7 @@ const App = () => {
             <SearchBar />
             <ProfileCard />
           </section>
-        </main>
+        </main> 
       </UI>
     </>
   );

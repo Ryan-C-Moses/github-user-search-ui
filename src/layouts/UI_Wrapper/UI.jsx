@@ -1,5 +1,3 @@
-import "./UI.css";
-
 const UI = ({children}) => {
     return <div id="wrapper">
         {children}
