@@ -45,6 +45,7 @@
   flex-direction: column;
   margin-bottom: 24px;
 }
+
 .bio {
   color: var(--neutral-500, #4b6a9b);
   font-feature-settings: "liga" off, "clig" off;
@@ -120,5 +121,15 @@
   .date-joined {
     color: var(--neutral-500, #4b6a9b);
     font-feature-settings: "liga" off, "clig" off;
+  }
+
+  .profile-info {
+    flex-direction: row;
+    gap: 0;
+    padding: var(--spacing-200, 16px) var(--spacing-400, 32px);
+  }
+
+  .profile-info div {
+    flex: 1;
   }
 }
