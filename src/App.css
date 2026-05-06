@@ -1,8 +1,6 @@
-main {
-    flex-grow: 1;
-}
-
 section {
     height: 100%;
     width: 100%;
+    max-width: 730px;
+    margin: 0 auto;
 }

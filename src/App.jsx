@@ -7,14 +7,14 @@ import "./App.css";
 const App = () => {
   return (
     <Ui>
-        <Header />
-        <main>
-          <section>
-            <SearchBar />
-            <ProfileCard />
-          </section>
-        </main> 
-      </Ui>
+      <Header />
+      <main>
+        <section>
+          <SearchBar />
+          <ProfileCard />
+        </section>
+      </main>
+    </Ui>
   );
 };
 

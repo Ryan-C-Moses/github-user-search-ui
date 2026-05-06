@@ -2,7 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 32px;
+  width: 100%;
+  max-width: 343px;
 }
 
 .header > div {
@@ -10,11 +14,11 @@
 }
 
 .header div > p {
-    color: var(--neutral-500);
-    font-feature-settings: 'liga' off, 'clig' off;
-    margin-right: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
+  color: var(--neutral-500);
+  font-feature-settings: "liga" off, "clig" off;
+  margin-right: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .page-title {
@@ -26,3 +30,10 @@
   width: 20px;
   height: 20px;
 }
+
+@media (min-width: 768px) {
+  .header {
+    max-width: 730px;
+  }
+}
+

@@ -1,6 +1,6 @@
 .search-bar-container {
   display: flex;
-  padding: 10.5px 12px;
+  padding: var(--spacing-100, 8px) var(--spacing-150, 12px);
   border-radius: var(--corner-radius-16, 16px);
   background: var(--colors-neutral-0, #fff);
   box-shadow: 0 16px 30px -10px rgba(70, 96, 187, 0.2);
@@ -45,4 +45,10 @@
   border-radius: var(--radius-10);
   background: var(--blue-500);
   margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .search-bar-container {
+    padding: var(--spacing-100, 8px) var(--spacing-150, 12px) var(--spacing-100, 8px) var(--spacing-300, 24px);
+  }
 }
