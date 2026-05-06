@@ -1,6 +1,23 @@
+:root {
+  color-scheme: light;
+
+  --color-bg-page: var(--neutral-100);
+  --color-page-title: var(--neutral-900);
+  --color-theme-btn: var(--neutral-500);
+  /* --color-search-icon: ; Don't know if I need this */
+  --color-txt-primary: var(--neutral-700);
+  --color-txt-secondary: var(--neutral-500);
+  --color-bg-card: var(--neutral-0);
+  --color-social-icon: var(--neutral-900);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+}
+
 #root {
-    flex: 1;
-    display: flex;
+  flex: 1;
+  display: flex;
 }
 
 #wrapper {
@@ -13,5 +30,5 @@
 }
 
 body {
-    background: var(--neutral-100);
+  background: var(--color-bg-page);
 }

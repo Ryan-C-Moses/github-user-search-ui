@@ -15,14 +15,16 @@
 
 .header div > p {
   color: var(--neutral-500);
-  font-feature-settings: "liga" off, "clig" off;
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
   margin-right: 12px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .page-title {
-  color: var(--neutral-900);
+  color: var(--color-page-title);
   font-weight: bold;
 }
 
@@ -36,4 +38,3 @@
     max-width: 730px;
   }
 }
-
