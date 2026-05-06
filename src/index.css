@@ -13,6 +13,15 @@
 
 [data-theme="dark"] {
   color-scheme: dark;
+
+  --color-bg-page: var(--neutral-900);
+  --color-page-title: var(--neutral-0);
+  --color-theme-btn: var(--neutral-200);
+  /* --color-search-icon: ; Don't know if I need this */
+  --color-txt-primary: var(--neutral-0);
+  --color-txt-secondary: var(--neutral-0);
+  --color-bg-card: var(--neutral-800);
+  --color-social-icon: var(--neutral-0);
 }
 
 #root {
